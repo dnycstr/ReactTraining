@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/week-03/SimpAccSolution/.vs/SimpAccSolution
+/week-03/SimpAccSolution/SimpAcc.API/bin/Debug/net6.0
+/week-03/SimpAccSolution/SimpAcc.API/obj
+/week-02/ReactWebpackMultiple/node_modules
+/week-03/SimpAccSolution/.vs/ProjectEvaluation
