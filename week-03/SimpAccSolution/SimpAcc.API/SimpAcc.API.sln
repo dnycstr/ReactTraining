@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpAcc.API", "SimpAcc.API.csproj", "{EFB7DA2A-006E-4463-8A70-3326DB612D7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFB7DA2A-006E-4463-8A70-3326DB612D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB7DA2A-006E-4463-8A70-3326DB612D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB7DA2A-006E-4463-8A70-3326DB612D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB7DA2A-006E-4463-8A70-3326DB612D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5097CB7E-CA4C-4B59-995B-5B38B04DA80C}
+	EndGlobalSection
+EndGlobal
