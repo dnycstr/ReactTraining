@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.HttpOverrides;
 using SimpAcc.API.Application;
 using SimpAcc.API.Infrastructure;
 
@@ -35,6 +36,12 @@ app.UseHttpsRedirection();
 
 app.UseCors("my-origins");
 
+app.UseForwardedHeaders(new ForwardedHeadersOptions
+{
+    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+});
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
